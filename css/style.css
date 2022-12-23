@@ -1,0 +1,416 @@
+body {
+  font-family: "Lato", sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+img {
+  max-width: 100%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Playfair Display", serif;
+}
+
+.play-font {
+  font-family: "Playfair Display", serif;
+}
+
+.poppins-font {
+  font-family: "Poppins", sans-serif;
+}
+
+.lato-font {
+  font-family: "Lato", sans-serif;
+}
+
+.btn {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* header*/
+
+.top-header {
+  background-color: #252525;
+}
+
+.top-contact ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+.top-contact ul li {
+  display: inline-block;
+}
+
+.top-contact ul li a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 10px;
+  font-family: "lato", sans-serif;
+  font-weight: 400;
+}
+
+.top-contact ul li a i {
+  color: #ed1c24;
+}
+
+ul.top-social {
+  margin: 0px 30px 0px 0px;
+  padding: 0px;
+}
+ul.top-social li {
+  display: inline-block;
+}
+
+ul.top-social li a {
+  color: #ed1c24;
+  margin-right: 6px;
+}
+
+.top-right-info {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.top-contact {
+  margin-top: 12px;
+}
+
+.btn-primary {
+  text-transform: uppercase;
+  font-size: 15px;
+  border-radius: 0;
+  font-weight: 500;
+  background: #ed1c24;
+  border-color: #ed1c24;
+  padding: 12px 10px;
+}
+
+/* banner*/
+
+section.banner-section {
+  padding: 200px 200px;
+  text-align: center;
+}
+
+section.banner-section h1 {
+  color: #fff;
+  font-size: 80px;
+  max-width: 1000px;
+  margin: 0px auto;
+}
+
+section.banner-section p {
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  max-width: 400px;
+  margin: 30px auto 35px;
+}
+
+.btn-outline-light {
+  font-size: 15px font-;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding: 12px 10px;
+  border-radius: 0;
+}
+
+.btn {
+  min-width: 185px;
+}
+
+.banner-text .btn {
+  margin: 0px 10px;
+}
+
+/*features*/
+
+section.features-section {
+  background: #252525;
+  padding-bottom: 100px;
+}
+
+.features-box {
+  background: #fff;
+  padding: 30px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.left-head h2 {
+  color: #fff;
+  font-size: 50px;
+}
+
+.right-text {
+  color: #fff;
+}
+
+.row.top-features {
+  /* margin-top: -107px; */
+  position: relative;
+  top: -85px;
+}
+
+/*about section*/
+
+section.about-section {
+  padding: 100px 0px 70px;
+}
+
+.signature p {
+  position: relative;
+  top: -21px;
+}
+
+.signature img {
+  max-width: 200px;
+}
+.about-text {
+  margin-bottom: 30px;
+}
+.about-img {
+  margin-bottom: 30px;
+}
+
+/*services section*/
+section.services-section {
+  background: #ebebeb;
+  text-align: center;
+  padding: 100px 0px 80px;
+}
+
+.section_title-main {
+  margin-bottom: 47px;
+}
+
+.services-box {
+  background: #fff;
+  margin-bottom: 20px;
+}
+
+.services-media img {
+  width: 100%;
+}
+
+.services-info {
+  padding: 30px;
+  background: #fff;
+  box-shadow: 0px 0px 10px rgb(0, 0, 0, 0.11);
+}
+
+.services-info h3 {
+  font-size: 27px;
+}
+
+h2.section-title {
+  font-size: 60px;
+}
+
+/*Team Section*/
+section.team-section {
+  background: #22282d;
+  text-align: center;
+  padding: 100px 0px 70px;
+}
+section.team-section .section-title {
+  color: #fff;
+  padding-bottom: 20px;
+}
+
+.team-box {
+  margin-bottom: 30px;
+}
+
+.team-media img {
+  width: 100%;
+}
+.team-info {
+  background: #181d21;
+  padding: 30px;
+  border-bottom: 2px solid #ed1c24;
+}
+
+.team-info h3 {
+  font-size: 24px;
+  color: #fff;
+}
+
+.team-info p {
+  color: #ed1c24;
+}
+
+.team-box ul.top-social li a {
+  color: #d7d7d7;
+}
+.team-box ul.top-social {
+  margin: 0;
+}
+.btn-team {
+  margin: 30px 0px 0px;
+}
+/*testimonial section*/
+
+.section.test-section {
+  padding: 100px 0px;
+  text-align: center;
+  background-size: cover;
+}
+
+h2.section-title {
+  font-size: 60px;
+  padding: 50px;
+}
+.test-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.test-info img {
+  width: 50px !important;
+  height: 50px !important;
+  display: inline-block !important;
+}
+
+.test-box {
+  text-align: center;
+  max-width: 700px;
+  margin: 0px auto;
+}
+
+.test-box p {
+  font-size: 12px;
+}
+
+.test-author {
+  margin-left: 3px;
+}
+.test-author h4 {
+  font-size: 18px;
+  font-family: "Lato", sans-serif;
+  text-align: lefts;
+}
+
+.test-box h5 {
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  margin: 0;
+}
+.test-box p {
+  font-size: 18px;
+  font-style: italic;
+}
+
+.owl-theme .owl-nav {
+  position: absolute;
+  top: -7%;
+  max-width: 900px;
+  margin: 0px auto;
+  left: 0;
+  right: 0;
+}
+
+.owl-theme .owl-nav [class*="owl-"] {
+  font-size: 68px !important;
+}
+
+.owl-carousel .owl-nav .owl-prev {
+  position: absolute;
+  left: 0;
+}
+
+.owl-carousel .owl-nav button.owl-next {
+  position: absolute;
+  right: 0;
+}
+
+.owl-theme .owl-nav [class*="owl-"]:hover {
+  background: transparent !important;
+  color: #000 !important;
+}
+
+/* logo section*/
+
+.logo-box {
+  margin: 30px 0px;
+}
+
+section.contact-section .btn-primary {
+  background: #22282d !important;
+  border-color: #22282d !important;
+}
+
+/*Contact section*/
+
+section.contact-section {
+  background: #ed1c24;
+  padding: 43px 0px;
+  color: #fff;
+}
+/*FOOTER section*/
+footer.footer-section {
+  padding: 70px 0px 39px;
+}
+
+.footer-col {
+  margin-bottom: 30px;
+}
+
+.footer-menu ul {
+  margin: 0;
+  padding: 0;
+}
+
+.footer-menu ul li {
+  display: block;
+}
+
+.footer-menu ul li a {
+  color: #000;
+  text-decoration: none;
+}
+
+.footer-col h3 {
+  position: relative;
+  margin-bottom: 31px;
+}
+
+.footer-col h3:before {
+  content: "";
+  position: absolute;
+  width: 72px;
+  height: 2px;
+  background: #ed1c24;
+  bottom: -9px;
+}
+
+.copy-text {
+  margin-top: 30px;
+}
+/*esto deberia ir en el hedaer; aun no lo he ubicado*/
+header {
+  position: absolute;
+  width: 100%;
+  line-height: 20px;
+}
+
+header nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+  background: transparent !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(0, 0, 0, 0.55);
+  color: #fff;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #ed1c24;
+}
