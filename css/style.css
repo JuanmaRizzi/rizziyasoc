@@ -584,87 +584,13 @@ header nav.navbar.navbar-expand-lg.navbar-light.bg-light {
 }
 
 @media (max-width: 565px) {
-  .container,
-  .container-sm {
-    max-width: 250px;
-  }
-  section.banner-section h1 {
-    font-size: 20pxpx;
-    max-width: 100%;
-    text-align: center;
-  }
-
-  .banner-text .btn {
-    margin: 10px 10px;
-  }
-
   section.banner-section {
-    margin-bottom: -139px;
-  }
-
-  .left-head h2 {
-    font-size: 40px;
-  }
-
-  section.about-section {
-    padding: 28px 0px 35px;
-  }
-
-  section.features-section {
+    padding: 140px 78px;
     text-align: center;
-    padding: 50px 0px 20px;
-  }
-
-  .row.top-features {
-    top: 0px;
-  }
-
-  section.services-section {
-    padding: 0px 0px 10px;
-  }
-
-  section.team-section {
-    padding: 1px 0px 20px;
   }
 
   h2.section-title {
-    font-size: 60px;
+    font-size: 35px;
     padding: 20px;
-  }
-
-  .test-box p {
-    font-size: 15px;
-    font-style: italic;
-  }
-
-  .logo-box {
-    margin: 4px 0px;
-  }
-
-  section.contact-section.align-items-center {
-    text-align: center;
-  }
-
-  footer.footer-section {
-    padding: 40px 0px 1px;
-  }
-
-  section.logo-section.text-center {
-    padding-bottom: 30px;
-  }
-
-  .top-right-info {
-    justify-content: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
-  }
-
-  .navbar-collapse {
-    background: #000;
-    padding: 30px;
-  }
-
-  .navbar-light .navbar-toggler {
-    background: #fff;
   }
 }
